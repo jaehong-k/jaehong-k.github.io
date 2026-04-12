@@ -10,13 +10,15 @@ Hosted on GitHub Pages: jaehong-k.github.io
 ## Design
 
 Linear-style: clean, minimal, professional. Inspired by linear.app.
+Full design token reference → see DESIGN.md.
 
 - Font: -apple-system / Apple SD Gothic Neo (system font, no external dependency)
-- Background: #F5F3F0 (Cloud Dancer — Pantone Color of the Year 2026, warm soft white), Text: #0A0A0A, Border: #E2DDD8, Accent: #3B82F6
+- Background: #F5F3F0 (Cloud Dancer — Pantone Color of the Year 2026, warm soft white)
+- Text: #0A0A0A — Secondary: #6b6860 (warm gray, not cool) — Body: #374151 — Border: #E2DDD8
+- Accent: #4f46e5 (indigo) — Accent bg: #eef2ff
 - Layout: single-column, centered, max-width 720px
-- Generous whitespace; no visual clutter
 - Hover transitions only (no scroll animations, no page transitions)
-- Fully responsive, mobile-first
+- Fully responsive, mobile-first (breakpoint: 580px)
 - No heavy JS frameworks — pure HTML/CSS/JS
 
 Writing style in all copy: plain, direct English. No LLM-style words (notably, furthermore, crucially, etc.). No excessive em dashes.
@@ -26,7 +28,7 @@ Writing style in all copy: plain, direct English. No LLM-style words (notably, f
 ## Tech Stack
 
 - Pure HTML/CSS/JS
-- No build tools, no framework, no CDN except Google Fonts
+- No build tools, no framework, no CDN
 - Static files only — compatible with GitHub Pages as-is
 
 ---
@@ -36,10 +38,13 @@ Writing style in all copy: plain, direct English. No LLM-style words (notably, f
 Single-page layout with sections in this order:
 
 1. Profile
-2. Research Interests
-3. Publications
-4. News
-5. Education
+2. News
+3. Research
+4. Publications
+5. Ongoing Work
+6. Education
+
+Note: News is second (right after Profile) so recent activity is visible immediately.
 
 ---
 
@@ -49,10 +54,16 @@ Single-page layout with sections in this order:
 
 - Name: Jaehong Kim
 - Role: Ph.D. Candidate, KAIST (Korea Advanced Institute of Science and Technology)
-- Advisor: Won-jae Lee — https://sociology.kaist.ac.kr/
-- Internship: Max Planck Institute for Security and Privacy (MPI-SP), Bochum, Germany — Sep 2025 to Feb 2026, supervised by Meeyoung Cha — https://www.mpi-sp.org/cha
+- Advisor: Wonjae Lee (sociologist) — https://sociology.kaist.ac.kr/
+- Internships: Two stints at Max Planck Institute for Security and Privacy (MPI-SP)
+  - Sep 2024 – Nov 2024
+  - Sep 2025 – Feb 2026
+  - Supervised by computational social scientist Meeyoung Cha — https://www.mpi-sp.org/cha
+  - Ongoing collaboration with Cha after internships
 - Funding: Hyundai Motor Chung Mong-Koo Foundation
-- Profile photo: `Jaehong profile crop.jpeg`
+- Profile photo: `Jaehong profile.jpeg` (full-body shot)
+
+Bio wording: "I completed two research internships at the Max Planck Institute for Security and Privacy, supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
 
 TODO: Confirm official English full name (middle name, etc.)
 
@@ -64,15 +75,15 @@ TODO: Confirm official English full name (middle name, etc.)
 - CV: TODO — add PDF link when ready
 - GitHub: TODO — add personal GitHub link if applicable
 
-### Research Interests
+### Research
 
 Research sits at the intersection of moral psychology and AI, focusing on the attention economy.
 
 Two main threads:
 
-**Measurement.** A computational framework for measuring moral emotions using transformer-based models, multimodal architectures, and explainable AI. (Ongoing)
+**Measurement.** Computational framework for detecting moral emotions from text and video, using transformer-based models and multimodal architectures. Moral outrage most strongly predicts committed user participation. Also developing explainable AI techniques.
 
-**Effects.** Among moral emotions, moral outrage — expressions that blame and condemn others — most strongly drives committed user participation. Current work examines: (i) whether this effect extends to offline political behavior, (ii) whether it persists when driven by malicious users, and (iii) whether LLMs leveraging these dynamics gain political persuasion power.
+**Effects.** Does the outrage effect extend to offline political behavior? Does it hold when manufactured by malicious actors? Do LLMs that deploy moral outrage become more politically persuasive?
 
 ### Publications
 
@@ -96,7 +107,7 @@ Classifier: https://github.com/Paul-scpark/Multimodal-Moral-Emotion
 ---
 
 **Parallel Communities Across the Surface Web and the Dark Web**
-EMNLP 2025 (Findings)
+EMNLP 2025 (Findings) — Best Resource Paper Nominated
 Paper: https://aclanthology.org/2025.findings-emnlp.987/
 
 ---
@@ -117,18 +128,43 @@ Feb 2026    🇰🇷 Returned to KAIST after internship at MPI-SP
 Jan 2026    Paper accepted to WWW 2026
 Sep 2025    Paper accepted to EMNLP 2025
 Sep 2025    🇩🇪 Started internship at MPI-SP
+Nov 2024    🇰🇷 Returned to KAIST after internship at MPI-SP
+Sep 2024    🇩🇪 Started internship at MPI-SP
 Apr 2024    Paper accepted to ACL 2024
 ```
 
-Note: the original draft had a conflicting "Nov 2025 — Finish interned" entry. Removed — internship ran Sep 2025–Feb 2026.
+### Education
+
+List in reverse chronological order.
+
+- Ph.D. Candidate, Culture Technology — KAIST (Expected Aug 2027)
+
+- M.S., Culture Technology — KAIST · Social Computing Lab (2023)
+  Note: "Bridging social psychology theory and AI methodology"
+
+- B.A., Communication & Psychology · Minor in ICT Convergence · Cum Laude — Handong Global University · Data Analysis Lab (2021)
+  Note: "Learning is meant to be shared"
+
+---
+
+## Active Nav Behavior
+
+**Implementation:** Click-lock + fixed 68px threshold scroll detection.
+
+- On nav link click: immediately set that link active, lock scroll detection for 900ms (covers smooth scroll duration)
+- On scroll: last section whose `getBoundingClientRect().top <= 68px` becomes active
+- Near-bottom fallback (within 80px of page end): last linked section visible in viewport becomes active
+- `scroll-padding-top: 64px` ensures any clicked section lands at ~64px from top → within 68px threshold
+
+**Why this approach:** Viewport-ratio thresholds (e.g., 65% of innerHeight) caused adjacent sections to activate on large screens. Fixed 68px is viewport-independent and aligns with scroll-padding-top.
+
+**Known limitation:** Manually scrolling into short sections (Ongoing, Education) without clicking nav may not trigger active state — only clicking does. Acceptable for academic site usage patterns.
 
 ---
 
 ## Email Anti-Spam
 
 Do not write the email as plain text anywhere in the HTML source. Construct it entirely in JavaScript at runtime so naive crawlers cannot harvest it.
-
-Implementation pattern:
 
 ```html
 <a id="email-link"></a>
@@ -142,37 +178,33 @@ Implementation pattern:
 </script>
 ```
 
-The `<a>` tag must have no `href` or text content in HTML — JS fills both in after load.
-
 ---
 
 ## Flag Emoji Usage
 
 In the News section, use flag emojis to mark country transitions:
-- 🇩🇪 when starting the MPI-SP internship in Germany
-- 🇰🇷 when returning to Korea/KAIST
+- 🇩🇪 on Germany arrival (MPI-SP internship start)
+- 🇰🇷 on Korea return (MPI-SP internship end)
 
-Only use flags at transition points, not on every entry.
-
----
-
-### Education
-
-List in reverse chronological order.
-
-- Ph.D. Candidate, KAIST — Culture Technology (Expected Aug 2027)
-  Advisor: Won-jae Lee
-
-- M.S., KAIST — Culture Technology (Engineering), 2023
-
-- B.A., Handong Global University — Communication, Psychology; minor in ICT Convergence, 2021
+Only at transition points, not on every entry.
 
 ---
 
-## TODOs Before Build
+## Badge System
 
-- [ ] Confirm full official English name
+| Type | Color | Usage |
+|---|---|---|
+| Venue | Indigo (#4f46e5 on #eef2ff) | Conference name |
+| Under Review | Amber (#b45309 on #fffbeb) | Ongoing Work |
+| Ongoing | Gray (--text-secondary on #f3f4f6) | Ongoing Work |
+| Award | Amber with border (#fde68a) | Best Paper nomination |
+| Cum Laude | Amber italic, inline | Degree line |
+
+---
+
+## TODOs
+
 - [ ] Add ACL 2026 paper link (camera-ready pending)
-- [ ] Add graduation years to Education (optional)
 - [ ] Add CV PDF link
 - [ ] Add personal GitHub link (if public)
+- [ ] Confirm official English full name

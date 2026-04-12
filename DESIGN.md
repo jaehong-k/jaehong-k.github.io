@@ -82,7 +82,12 @@ All secondary/muted text uses `--text-secondary` (#6b6860) — warm stone, not c
 
 All transitions: `0.15s` on `color` and `border-color`.
 
-**Active nav logic:** `window.innerHeight * 0.65` viewport threshold — last section whose top is within 65% of viewport height becomes active. Scroll listener with `passive: true`.
+**Active nav logic:**
+- On click: immediately set active + lock scroll detection for 900ms (smooth scroll duration)
+- On scroll: last section where `getBoundingClientRect().top <= 68px` becomes active
+- Near-bottom (within 80px of page end): last linked section visible in viewport
+- `scroll-padding-top: 64px` ensures clicked sections land at ~64px → within 68px threshold
+- ⚠️ Do NOT switch back to viewport-ratio thresholds (e.g. `innerHeight * 0.65`) — causes adjacent section activation on large screens
 
 ---
 
