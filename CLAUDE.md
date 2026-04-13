@@ -61,9 +61,11 @@ Note: News is second (right after Profile) so recent activity is visible immedia
   - Supervised by computational social scientist Meeyoung Cha — https://www.mpi-sp.org/cha
   - Ongoing collaboration with Cha after internships
 - Funding: Hyundai Motor Chung Mong-Koo Foundation
-- Profile photo: `Jaehong profile.jpeg` (full-body shot)
+- Profile photo: `Jaehong profile 5_final.jpeg` (full-body shot, converted from IMG_4207 3.HEIC, top-trimmed)
 
 Bio wording: "I completed two research internships at the Max Planck Institute for Security and Privacy, supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
+
+Tagline (below name, above bio): `Moral Psychology · AI/NLP`
 
 TODO: Confirm official English full name (middle name, etc.)
 
@@ -83,7 +85,7 @@ Two main threads:
 
 **Measurement.** Computational framework for detecting moral emotions from text and video, using transformer-based models and multimodal architectures. Moral outrage most strongly predicts committed user participation. Also developing explainable AI techniques.
 
-**Effects.** Does the outrage effect extend to offline political behavior? Does it hold when manufactured by malicious actors? Do LLMs that deploy moral outrage become more politically persuasive?
+**Behavioral Effects.** Does the outrage effect extend to offline political behavior? Does it hold when manufactured by malicious actors? Do LLMs that deploy moral outrage become more politically persuasive?
 
 ### Publications
 
@@ -199,6 +201,17 @@ Only at transition points, not on every entry.
 | Ongoing | Gray (--text-secondary on #f3f4f6) | Ongoing Work |
 | Award | Amber with border (#fde68a) | Best Paper nomination |
 | Cum Laude | Amber italic, inline | Degree line |
+
+---
+
+## Footer
+
+```
+© 2026 Jaehong Kim
+Aspiring to be a researcher who loves God and our neighbors (Luke 4:18).
+```
+
+Both lines: 12px, `--text-secondary`. Second line has 4px top margin.
 
 ---
 

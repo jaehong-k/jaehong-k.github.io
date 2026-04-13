@@ -31,6 +31,7 @@ All secondary/muted text uses `--text-secondary` (#6b6860) — warm stone, not c
 | Ongoing title | 15px | 400 | — |
 | News text | 15px | 400 | — |
 | Edu degree | 15px | 500 | — |
+| Profile tagline | 13px | 400 | `letter-spacing: 0.03em`, `--text-secondary` |
 | Nav name | 14px | 600 | — |
 | Profile links | 14px | 400 | — |
 | News date | 14px | 400 | `font-variant-numeric: tabular-nums` |
@@ -65,8 +66,10 @@ All secondary/muted text uses `--text-secondary` (#6b6860) — warm stone, not c
 
 ### Profile grid
 
-- Columns: `148px 1fr`, gap `32px`, `align-items: stretch`
-- Photo: `148px × 100%`, `min-height: 180px`, `border-radius: 10px`, `box-shadow: 0 2px 12px rgba(0,0,0,0.07)`
+- Columns: `200px 1fr`, gap `32px`, `align-items: center`
+- Photo: `200px wide`, `height: auto` (proportional, ~390px tall for full-body shot), `border-radius: 10px`, `box-shadow: 0 2px 12px rgba(0,0,0,0.07)`
+- Photo file: `Jaehong profile 5_final.jpeg` (full-body shot, converted from IMG_4207 3.HEIC)
+- Text column: `justify-content: flex-start`, vertically centered relative to photo via grid `align-items: center`
 - Mobile (≤580px): single column, photo becomes `88px` circle
 
 ---
