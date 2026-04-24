@@ -95,9 +95,9 @@ Classifier link label: "Korean & English Moral Emotion Classifier + Tutorial"
 
 ---
 
-**Exploring LLM Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions**
+**Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions**
 ACL 2026 (Findings)
-Paper: TODO — link pending camera-ready
+Paper: https://arxiv.org/pdf/2604.21871
 
 ---
 
