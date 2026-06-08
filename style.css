@@ -267,6 +267,11 @@ h1 {
   background: #f3f4f6;
 }
 
+.status-badge.accepted {
+  color: #4f46e5;
+  background: #eef2ff;
+}
+
 /* ── Publications ─────────────────────────────────── */
 
 .pub-list {
