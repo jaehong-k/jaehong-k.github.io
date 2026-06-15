@@ -332,7 +332,7 @@ h1 {
 
 .pub-link {
   font-size: 13px;
-  color: var(--text-secondary);
+  color: var(--accent);
   text-decoration: none;
   border: 1px solid var(--border);
   padding: 3px 10px;
@@ -340,8 +340,12 @@ h1 {
   transition: color 0.15s, border-color 0.15s;
 }
 
+.pub-link:visited {
+  color: var(--accent);
+}
+
 .pub-link:hover {
-  color: var(--text);
+  color: var(--accent);
   border-color: var(--accent);
   background: var(--accent-bg);
 }
