@@ -373,6 +373,24 @@ h1 {
   list-style: none;
   display: flex;
   flex-direction: column;
+  max-height: 185px;
+  overflow-y: auto;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.news-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 2px;
 }
 
 .news-list li {
