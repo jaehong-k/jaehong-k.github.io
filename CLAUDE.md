@@ -61,9 +61,12 @@ Note: News is second (right after Profile) so recent activity is visible immedia
   - Supervised by computational social scientist Meeyoung Cha — https://www.mpi-sp.org/cha
   - Ongoing collaboration with Cha after internships
 - Funding: Hyundai Motor Chung Mong-Koo Foundation
+- Media/impact (last line of bio): "My work on foreign-linked influence operations received extensive national media coverage, including an SBS News segment (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
 - Profile photo: `Jaehong profile 5_final.jpeg` (full-body shot, converted from IMG_4207 3.HEIC, top-trimmed)
 
-Bio wording: "I completed two research internships at the Max Planck Institute for Security and Privacy, supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
+Bio wording: "I am a Ph.D. candidate at the Korea Advanced Institute of Science and Technology (KAIST) ... I completed two research internships at the Max Planck Institute for Security and Privacy (MPI-SP), supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
+
+Institution naming: spell the institution out on first mention in the bio and put the abbreviation in parentheses. Later mentions (News, Education) use the abbreviation alone.
 
 Tagline (below name, above bio): `Moral Psychology · AI/NLP`
 
@@ -71,10 +74,10 @@ TODO: Confirm official English full name (middle name, etc.)
 
 ### Links / Social
 
-- Email: luke.4.18@kaist.kr — render via JS obfuscation only (see Email Anti-Spam section)
+- Email: luke.4.18@kaist.ac.kr — render via JS obfuscation only (see Email Anti-Spam section)
 - Google Scholar: https://scholar.google.com/citations?user=aMHLQmEAAAAJ&hl=en
 - LinkedIn: https://www.linkedin.com/in/jaehong-kim-1b3601202/
-- CV: TODO — add PDF link when ready
+- CV: `cv/JaehongKim_CV_260901.pdf` (update the link in index.html whenever a newer PDF is added)
 - GitHub: TODO — add personal GitHub link if applicable
 
 ### Research
@@ -92,6 +95,20 @@ Two main threads:
 List in reverse chronological order. Show venue badge, paper link, and classifier link where available.
 Venue badge format: `CONFERENCE YEAR (Findings)` for findings, `CONFERENCE YEAR` for main track.
 Classifier link label: "Korean & English Moral Emotion Classifier + Tutorial"
+
+---
+
+**Nothing to Dread: A Measurement Study of a Dark Web Social Forum**
+IMC 2026
+Paper: pending — shows `Paper coming soon` until published
+
+---
+
+**Cross-National Information Attacks: A Two-Decade Analysis of Troll Behavior in Korea**
+USENIX Security 2026
+Paper: https://www.usenix.org/conference/usenixsecurity26/presentation/kim-jaehong
+Dataset: https://zenodo.org/records/20257086
+Media: SBS 12시뉴스 — https://www.youtube.com/watch?v=gKBfYfSll04
 
 ---
 
@@ -124,15 +141,25 @@ Classifier: https://github.com/Paul-scpark/Moral-Emotion
 Date format: `Mon YYYY` — no brackets, no dashes. Use flag emoji for country transitions.
 Show most recent first.
 
+Paper acceptance entries carry a second line (`.news-paper`, italic, 13.5px, secondary) with the short paper title — the part before the colon — linked to the paper when a URL exists.
+
 ```
-Apr 2026    Paper accepted to ACL 2026
+Aug 2026    Paper accepted to IMC 2026
+              Nothing to Dread: A Measurement Study of a Dark Web Social Forum
+Jun 2026    Paper accepted to USENIX Security 2026. 🇺🇸 See you in Baltimore!
+              Cross-National Information Attacks
+Apr 2026    Paper accepted to ACL 2026 (Findings)
+              Machine Behavior in Relational Moral Dilemmas
 Feb 2026    🇰🇷 Returned to KAIST after internship at MPI-SP
 Jan 2026    Paper accepted to WWW 2026
-Sep 2025    Paper accepted to EMNLP 2025
+              Moral Outrage Shapes Commitments Beyond Attention
+Sep 2025    Paper accepted to EMNLP 2025 (Findings)
+              Parallel Communities Across the Surface Web and the Dark Web
 Sep 2025    🇩🇪 Started internship at MPI-SP
 Nov 2024    🇰🇷 Returned to KAIST after internship at MPI-SP
 Sep 2024    🇩🇪 Started internship at MPI-SP
-Apr 2024    Paper accepted to ACL 2024
+Apr 2024    Paper accepted to ACL 2024 (Findings)
+              How Do Moral Emotions Shape Political Participation?
 ```
 
 ### Education
@@ -173,7 +200,7 @@ Do not write the email as plain text anywhere in the HTML source. Construct it e
 
 <script>
   const u = 'luke.4.18';
-  const d = 'kaist.kr';
+  const d = 'kaist.ac.kr';
   const el = document.getElementById('email-link');
   el.href = 'mailto:' + u + '@' + d;
   el.textContent = u + '@' + d;
@@ -217,7 +244,5 @@ Both lines: 12px, `--text-secondary`. Second line has 4px top margin.
 
 ## TODOs
 
-- [ ] Add ACL 2026 paper link (camera-ready pending)
-- [ ] Add CV PDF link
 - [ ] Add personal GitHub link (if public)
 - [ ] Confirm official English full name
