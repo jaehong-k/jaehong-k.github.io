@@ -94,7 +94,7 @@ Two main threads:
 
 List in reverse chronological order. Show venue badge, paper link, and classifier link where available.
 Venue badge format: `CONFERENCE YEAR (Findings)` for findings, `CONFERENCE YEAR` for main track.
-Next to the badge, `.venue-full` shows the conference's full name in 12px secondary gray, so non-specialist readers know the venue:
+Next to the badge, `.venue-full` shows the conference's full name in 12px secondary gray, so non-specialist readers know the venue. It goes last in `.pub-meta` — after any award badge, so the chips stay grouped:
 IMC → ACM Internet Measurement Conference · USENIX Security → USENIX Security Symposium · ACL → Association for Computational Linguistics · WWW → The Web Conference · EMNLP → Empirical Methods in Natural Language Processing
 Classifier link label: "Korean & English Moral Emotion Classifier + Tutorial"
 
