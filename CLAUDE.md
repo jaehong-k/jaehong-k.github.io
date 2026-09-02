@@ -61,7 +61,7 @@ Note: News is second (right after Profile) so recent activity is visible immedia
   - Supervised by computational social scientist Meeyoung Cha — https://www.mpi-sp.org/cha
   - Ongoing collaboration with Cha after internships
 - Funding: Hyundai Motor Chung Mong-Koo Foundation
-- Media/impact (last line of bio): "My work on foreign-linked influence operations received extensive national media coverage, including an SBS News segment (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
+- Media/impact (last line of bio): "Beyond academia, my work on foreign-linked influence operations received extensive national media coverage, including an SBS News segment (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
 - Profile photo: `Jaehong profile 5_final.jpeg` (full-body shot, converted from IMG_4207 3.HEIC, top-trimmed)
 
 Bio wording: "I am a Ph.D. candidate at the Korea Advanced Institute of Science and Technology (KAIST) ... I completed two research internships at the Max Planck Institute for Security and Privacy (MPI-SP), supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
@@ -94,6 +94,8 @@ Two main threads:
 
 List in reverse chronological order. Show venue badge, paper link, and classifier link where available.
 Venue badge format: `CONFERENCE YEAR (Findings)` for findings, `CONFERENCE YEAR` for main track.
+Next to the badge, `.venue-full` shows the conference's full name in 12px secondary gray, so non-specialist readers know the venue:
+IMC → ACM Internet Measurement Conference · USENIX Security → USENIX Security Symposium · ACL → Association for Computational Linguistics · WWW → The Web Conference · EMNLP → Empirical Methods in Natural Language Processing
 Classifier link label: "Korean & English Moral Emotion Classifier + Tutorial"
 
 ---
@@ -141,25 +143,25 @@ Classifier: https://github.com/Paul-scpark/Moral-Emotion
 Date format: `Mon YYYY` — no brackets, no dashes. Use flag emoji for country transitions.
 Show most recent first.
 
-Paper acceptance entries carry a second line (`.news-paper`, italic, 13.5px, secondary) with the short paper title — the part before the colon — linked to the paper when a URL exists.
+Paper acceptance entries carry a second line (`.news-paper`, italic, 13.5px, secondary) with the full paper title, linked to the paper when a URL exists.
 
 ```
 Aug 2026    Paper accepted to IMC 2026
               Nothing to Dread: A Measurement Study of a Dark Web Social Forum
 Jun 2026    Paper accepted to USENIX Security 2026. 🇺🇸 See you in Baltimore!
-              Cross-National Information Attacks
+              Cross-National Information Attacks: A Two-Decade Analysis of Troll Behavior in Korea
 Apr 2026    Paper accepted to ACL 2026 (Findings)
-              Machine Behavior in Relational Moral Dilemmas
+              Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions
 Feb 2026    🇰🇷 Returned to KAIST after internship at MPI-SP
 Jan 2026    Paper accepted to WWW 2026
-              Moral Outrage Shapes Commitments Beyond Attention
+              Moral Outrage Shapes Commitments Beyond Attention: Multimodal Moral Emotions on YouTube in Korea and the US
 Sep 2025    Paper accepted to EMNLP 2025 (Findings)
               Parallel Communities Across the Surface Web and the Dark Web
 Sep 2025    🇩🇪 Started internship at MPI-SP
 Nov 2024    🇰🇷 Returned to KAIST after internship at MPI-SP
 Sep 2024    🇩🇪 Started internship at MPI-SP
 Apr 2024    Paper accepted to ACL 2024 (Findings)
-              How Do Moral Emotions Shape Political Participation?
+              How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models
 ```
 
 ### Education
