@@ -61,7 +61,7 @@ Note: News is second (right after Profile) so recent activity is visible immedia
   - Supervised by computational social scientist Meeyoung Cha — https://www.mpi-sp.org/cha
   - Ongoing collaboration with Cha after internships
 - Funding: Hyundai Motor Chung Mong-Koo Foundation
-- Media/impact (last line of bio): "Beyond academia, my work on foreign-linked influence operations received extensive national media coverage, including an SBS News segment (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
+- Media/impact (last line of bio): "Beyond academia, my research on foreign-linked influence operations has received national media coverage, including an SBS News report (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and has contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
 - Profile photo: `Jaehong profile 5_final.jpeg` (full-body shot, converted from IMG_4207 3.HEIC, top-trimmed)
 
 Bio wording: "I am a Ph.D. candidate at the Korea Advanced Institute of Science and Technology (KAIST) ... I completed two research internships at the Max Planck Institute for Security and Privacy (MPI-SP), supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
