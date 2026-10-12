@@ -82,13 +82,13 @@ TODO: Confirm official English full name (middle name, etc.)
 
 ### Research
 
-Research sits at the intersection of moral psychology and AI, focusing on the attention economy.
+Opening line: "My research examines how moral emotions shape human and machine behavior."
 
-Two main threads:
+Two threads:
 
-**Measurement.** Computational framework for detecting moral emotions from text and video, using transformer-based models and multimodal architectures. Moral outrage most strongly predicts committed user participation. Also developing explainable AI techniques.
+**Human Behavior.** Computational frameworks detecting moral emotions in text and video across languages (transformer-based and multimodal models). Moral outrage most strongly predicts committed user participation; suspected foreign-linked trolls exploit this mechanism (USENIX Security 2026).
 
-**Behavioral Effects.** Does the outrage effect extend to offline political behavior? Does it hold when manufactured by malicious actors? Do LLMs that deploy moral outrage become more politically persuasive?
+**Machine Behavior.** How LLMs represent moral outrage internally; shifting the representation along the outrage direction causally leads to harsher punishments for the same crime report (paper under review). Keep claims no stronger than the paper.
 
 ### Publications
 
