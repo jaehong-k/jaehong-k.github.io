@@ -77,7 +77,9 @@ TODO: Confirm official English full name (middle name, etc.)
 - Email: luke.4.18@kaist.ac.kr — render via JS obfuscation only (see Email Anti-Spam section)
 - Google Scholar: https://scholar.google.com/citations?user=aMHLQmEAAAAJ&hl=en
 - LinkedIn: https://www.linkedin.com/in/jaehong-kim-1b3601202/
-- CV: `cv/JaehongKim_CV_updated_IMC_ICLR.pdf` (update the link in index.html whenever a newer PDF is added)
+- CV: the site links `cv/industry/JaehongKim_CV.pdf` (2-page version for industry research labs, e.g., OpenAI and Microsoft Research). `cv/academia/JaehongKim_CV.pdf` is the full 3-page CV with every publication, including KCI papers.
+  - Industry version: SELECTED PUBLICATIONS (Peer-Reviewed, then Under Review & Working Papers), no KCI papers, one-line fellowships, no blank lines between TA entries. Keep it at 2 pages without shrinking font or margins.
+  - Edit the .docx in each folder, export to PDF from Word with the same name, then commit the PDF (the .docx stays local).
 - GitHub: TODO — add personal GitHub link if applicable
 
 ### Research
