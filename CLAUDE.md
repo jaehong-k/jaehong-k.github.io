@@ -61,7 +61,7 @@ Note: News is second (right after Profile) so recent activity is visible immedia
   - Supervised by computational social scientist Meeyoung Cha — https://www.mpi-sp.org/cha
   - Ongoing collaboration with Cha after internships
 - Funding: Hyundai Motor Chung Mong-Koo Foundation
-- Media/impact (last line of bio): "Beyond academia, my work on foreign-linked influence operations received extensive national media coverage, including coverage by SBS News (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
+- Media/impact (last line of bio): "Beyond academia, my work on foreign-linked influence operations received extensive national media coverage, including an SBS News segment (https://www.youtube.com/watch?v=gKBfYfSll04) with over 1.2 million views, and contributed to policy discussions among lawmakers." View count is as of Sep 2026; wording matches the CV.
 - Profile photo: `Jaehong profile 5_final.jpeg` (full-body shot, converted from IMG_4207 3.HEIC, top-trimmed)
 
 Bio wording: "I am a Ph.D. candidate at the Korea Advanced Institute of Science and Technology (KAIST) ... I completed two research internships at the Max Planck Institute for Security and Privacy (MPI-SP), supervised by computational social scientist Meeyoung Cha, with whom I continue to collaborate."
@@ -82,15 +82,13 @@ TODO: Confirm official English full name (middle name, etc.)
 
 ### Research
 
-Opening line (matches the CV's Research Interests): "I study how moral emotions shape human and machine behavior, combining computational social science and natural language processing."
+Research sits at the intersection of moral psychology and AI, focusing on the attention economy.
 
-Three threads:
+Two main threads:
 
-**Measurement.** Computational frameworks for detecting moral emotions across languages and modalities, from text and video, using transformer-based models and multimodal architectures. Moral outrage most strongly predicts committed user participation. Also developing explainable AI techniques.
+**Measurement.** Computational framework for detecting moral emotions from text and video, using transformer-based models and multimodal architectures. Moral outrage most strongly predicts committed user participation. Also developing explainable AI techniques.
 
-**Human Behavior.** Does the outrage effect extend to offline protest? Does it hold when manufactured by malicious actors, as in foreign influence operations?
-
-**Machine Behavior.** How internal representations of moral outrage shape LLM punishment judgments, and how these effects can be controlled (matches the CV's Research Interests (3)).
+**Behavioral Effects.** Does the outrage effect extend to offline political behavior? Does it hold when manufactured by malicious actors? Do LLMs that deploy moral outrage become more politically persuasive?
 
 ### Publications
 
