@@ -68,7 +68,7 @@ Bio wording: "I am a Ph.D. candidate at the Korea Advanced Institute of Science 
 
 Institution naming: spell the institution out on first mention in the bio and put the abbreviation in parentheses. Later mentions (News, Education) use the abbreviation alone.
 
-Tagline (below name, above bio): `Moral Psychology · AI/NLP`
+Tagline (below name, above bio): `Moral Emotion · Attention Economy · Machine Behavior`
 
 TODO: Confirm official English full name (middle name, etc.)
 
@@ -77,7 +77,7 @@ TODO: Confirm official English full name (middle name, etc.)
 - Email: luke.4.18@kaist.ac.kr — render via JS obfuscation only (see Email Anti-Spam section)
 - Google Scholar: https://scholar.google.com/citations?user=aMHLQmEAAAAJ&hl=en
 - LinkedIn: https://www.linkedin.com/in/jaehong-kim-1b3601202/
-- CV: `cv/JaehongKim_CV_261012.pdf` (update the link in index.html whenever a newer PDF is added)
+- CV: `cv/JaehongKim_CV_updated_IMC_ICLR.pdf` (update the link in index.html whenever a newer PDF is added)
 - GitHub: TODO — add personal GitHub link if applicable
 
 ### Research
@@ -90,7 +90,7 @@ Three threads:
 
 **Human Behavior.** Does the outrage effect extend to offline protest? Does it hold when manufactured by malicious actors, as in foreign influence operations?
 
-**Machine Behavior.** How internal representations of moral emotion shape LLM decisions, and how those effects can be controlled. Do models that deploy moral outrage become more politically persuasive?
+**Machine Behavior.** How internal representations of moral outrage shape LLM punishment judgments, and how these effects can be controlled (matches the CV's Research Interests (3)).
 
 ### Publications
 
@@ -104,7 +104,7 @@ Classifier link label: "Korean & English Moral Emotion Classifier + Tutorial"
 
 **Nothing to Dread: A Measurement Study of a Dark Web Social Forum**
 IMC 2026
-Paper: https://doi.org/10.1145/3777912.3839814
+Paper: https://dl.acm.org/doi/10.1145/3777912.3839814
 Dataset: https://zenodo.org/records/22093003
 
 ---
@@ -171,7 +171,7 @@ Apr 2024    Paper accepted to ACL 2024 (Findings)
 
 List in reverse chronological order.
 
-- Ph.D. Candidate, Culture Technology — KAIST (Expected Aug 2027)
+- Ph.D. Candidate, Culture Technology — KAIST (Expected Feb 2027)
 
 - M.S., Culture Technology — KAIST · Social Computing Lab (2023)
   Note: "Bridging social psychology theory and AI methodology"
