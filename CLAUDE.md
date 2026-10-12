@@ -86,9 +86,9 @@ Opening line: "My research examines how moral emotions shape human and machine b
 
 Two threads:
 
-**Human Behavior.** Multimodal frameworks detecting moral emotions in English and Korean text and images. Moral outrage (anger at perceived wrongdoing) most strongly predicts committed user participation; suspected foreign-linked trolls disproportionately exploit moral outrage (USENIX Security 2026).
+**Human Behavior.** Multimodal frameworks detecting moral emotions in English and Korean text and images. Moral outrage (anger at perceived wrongdoing) most strongly predicts committed user participation and is disproportionately used by suspected foreign-linked trolls (USENIX Security 2026).
 
-**Machine Behavior.** How LLMs represent moral outrage internally; shifting the representation along the outrage direction causally leads to harsher punishments for the same crime report (paper under review). Keep claims no stronger than the paper.
+**Machine Behavior.** How LLMs internally represent moral outrage; steering these representations causally shifts punishment judgments, leading models to recommend harsher sentences for identical offenses (paper under review). Keep claims no stronger than the paper.
 
 ### Publications
 
